@@ -1,3 +1,9 @@
+Features: 
+- Web & Mobile Optimized UI
+- Musical Notes Per Click
+- *Possible* AWS native site
+
+
 Opening Page:
 
 Bitlace: A Place To See Where To Spend Your Bitcoin.
@@ -8,7 +14,8 @@ Use your bitcoins to buy...
 - Flights & Hotels
 - Gift Cards
 
-Secondary Page:
+
+Category Page:
 
 Use your bitcoins to buy *insert category* from...
 - Website link
