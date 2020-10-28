@@ -1,8 +1,12 @@
 Features: 
 - Web & Mobile Optimized UI
 - Musical Notes Per Click
-- *Possible* AWS native site
-
+- *Possible* AWS native site, then below features to be implemented:
+----------------------
+- Navigation Icon
+- SSL
+- Sharing Image
+----end features------
 
 Opening Page:
 
