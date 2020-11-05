@@ -14,6 +14,7 @@
 		<div id="wrapper" class="text-dark">
             <h2 id="logo">bitlace</h2>
             <p>A PLACE SHOWING WHERE TO SPEND YOUR BITCOIN</p>
+            <button id="submit">Submit Website</button>
             <div id="container">
                 <button id="category-button"></button>
                 <button id="category-button"></button>

@@ -1,4 +1,4 @@
-package com.bitlace;
+package com.bitruism;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

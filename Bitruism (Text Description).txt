@@ -10,17 +10,11 @@ Features:
 
 Opening Page:
 
-Bitlace: A Place To See Where To Spend Your Bitcoin.
+Bitruism: Donate Bitcoin To Charities.
 
-Use your bitcoins to buy...
-- General Goods
-- Home Furnishing
-- Flights & Hotels
-- Gift Cards
+Submit A Charity
 
-
-Category Page:
-
-Use your bitcoins to buy *insert category* from...
-- Website link
+-Charity 1
+-Charity 2
+-Charity 3
 
