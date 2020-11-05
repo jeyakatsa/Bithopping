@@ -13,7 +13,7 @@
 </head>
 	<body>
 		<div id="wrapper" class="text-dark">
-            <h2 id="logo">bitlace</h2>
+            <h4 id="logo">bitruism</h4>
             <p>SUBMIT A CHARITY</p>
             <div id="container">
                 <p>THIS PAGE WORKS</p>

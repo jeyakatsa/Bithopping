@@ -12,7 +12,7 @@
 </head>
 	<body>
 		<div id="wrapper" class="text-dark">
-            <h2 id="logo">bitlace</h2>
+            <h4 id="logo">bitruism</h4>
             <p>DONATE BITCOIN TO CHARITIES</p>
             <div id="container">
                 <p>This Page Works!</p>
