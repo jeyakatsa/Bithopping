@@ -14,7 +14,7 @@
 	<body>
 		<div id="wrapper" class="text-dark">
             <h4 id="logo">bitruism</h4>
-            <p>SUBMIT A CHARITY</p>
+            <p>SUBMIT A CHARITY TO BE LISTED</p>
             <div id="container">
                 <p>THIS PAGE WORKS</p>
             </div>
