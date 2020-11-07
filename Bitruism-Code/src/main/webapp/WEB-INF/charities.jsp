@@ -15,7 +15,30 @@
             <h4 id="logo">bitruism</h4>
             <p>DONATE BITCOIN TO CHARITIES</p>
             <div id="container">
-                <p>This Page Works!</p>
+	            <form id="charities" action="https://files.savethechildren.org/cryptocurrency-donation/">
+					<input type="submit" value="Save The Children"/>
+				</form>
+	            <form id="charities" action="https://www.unitedway.org/get-involved/ways-to-give/donate-bitcoin#">
+					<input type="submit" value="United Way"/>
+				</form>
+	            <form id="charities" action="https://thewaterproject.org/donate-bitcoin">
+					<input type="submit" value="The Water Project"/>
+				</form>
+	            <form id="charities" action="https://www.directrelief.org/get-involved/bitcoin/">
+					<input type="submit" value="Direct Relief"/>
+				</form>
+			    <form id="charities" action="https://hrf.org/donate-bitcoin/">
+					<input type="submit" value="Human Rights Foundation"/>
+				</form>
+	            <form id="charities" action="https://www.conservation.org/act/donate-bitcoin">
+					<input type="submit" value="Conservation"/>
+				</form>
+	            <form id="charities" action="https://www.crohnscolitisfoundation.org/donate/donate-cryptocurrency">
+					<input type="submit" value="Crohn's & Colitis"/>
+				</form>
+	            <form id="charities" action="https://forgottenanimals.org/bitcoin/">
+					<input type="submit" value="Forgotten Animals"/>
+				</form>
             </div>
 		</div>
 	</body>
