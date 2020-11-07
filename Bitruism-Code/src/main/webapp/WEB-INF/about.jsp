@@ -13,9 +13,15 @@
 	<body>
 		<div id="wrapper" class="text-dark">
             <h4 id="logo">bitruism</h4>
-            <div id="container">
-                <p>This Page Works!</p>
-            </div>
+            <br>
+            <p>Bitruism, short for Bitcoin-Altruism is a place for anyone to browse a list of curated 
+            and vetted charities to donate Bitcoin to!</p>
+            <p>If there are no charities that interest you on our list, <a href="/submit">Submit A Charity</a>
+            for evaluation and we'll inform you of its status.</p>
+            <br>
+            <form id="redirect" action="/charities">
+				<input type="submit" value="Donate Bitcoin To Charities"/>
+			</form>
 		</div>
 	</body>
 </html>

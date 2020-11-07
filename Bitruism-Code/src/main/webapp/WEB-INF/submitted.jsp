@@ -13,9 +13,24 @@
 	<body>
 		<div id="wrapper" class="text-dark">
             <h4 id="logo">bitruism</h4>
-            <div id="container">
-                <p>This Page Works!</p>
-            </div>
+            <br>
+			<h4>Thanks for your submission!</h4>
+			<p>Your submission will be carefully vetted/curated in order to ensure/maintain quality service.
+			We will vet your submission based on these criteria...
+				<ul>
+					<li>Duplications: we ensure the charity you submitted isn't already hosted on Bitruism.</li>
+					<li>Reputation: we research the reputation of the charity you sumitted.</li>
+					<li>Bitcoin Acceptance: we confirm that your submitted charity does accept Bitcoin.</li>
+				</ul>
+			If your submission is accepted, you'll receive an e-mail confirmation from us.	
+			</p>
+			<form id="redirect" action="/charities">
+				<input type="submit" value="Donate Bitcoin To Charities"/>
+			</form>
+			<br>
+			<form id="redirect" action="/submit">
+				<input type="submit" value="Submit Another Charity"/>
+			</form>
 		</div>
 	</body>
 </html>
