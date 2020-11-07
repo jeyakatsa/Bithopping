@@ -18,7 +18,25 @@
             <p>SUBMIT A CHARITY TO BE LISTED</p>
             <br>
             <div id="container">
-                <p>THIS PAGE WORKS</p>
+				<form:form  action="/submit" method="post" modelAttribute="charity">
+					<div class="form-group" id="enter-content">
+						<form:label path="name">Charity Name:</form:label>
+						<form:errors id="errors" path="name"></form:errors>
+						<form:input class="form-control" path="name"></form:input>
+					</div>
+					<div class="form-group" id="enter-content">
+						<form:label path="website">Charity Website:</form:label>					
+						<form:errors id="errors" path="website"></form:errors>
+						<form:input class="form-control" path="website"></form:input>
+					</div>
+					<div class="form-group" id="enter-content">
+						<form:label path="email">Your Email:</form:label>						
+						<form:errors id="errors" path="email"></form:errors>
+						<form:input class="form-control" path="email"></form:input>
+					</div>										
+					<br>
+				    <input id="submit" type="submit" value="Submit"/>
+				</form:form>
             </div>
 		</div>
 	</body>
