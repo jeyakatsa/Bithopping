@@ -46,16 +46,21 @@ public class MainController {
 			return "/submit.jsp";
 		} else {
 			this.charityService.create(charity);
-			return "redirect:/charities";
+			return "redirect:/submitted";
 		}
 	}
+	
+	//about link
+	@GetMapping("/submitted")
+    public String Submitted() {
+		return "/submitted.jsp";
+    }
 	
 	//about link
 	@GetMapping("/about")
     public String About() {
 		return "/about.jsp";
     }
-
 	
 	
 }
