@@ -4,10 +4,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	
 		<link rel="stylesheet" type="text/css" href="/css/index.css">	
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-			rel="stylesheet" >
-		<script src="/javascript/index.js"></script>			
+			rel="stylesheet" >			
 		<meta charset="ISO-8859-1">
 		<meta name="description" content="Bitruism"/>
 		<meta name="google" content="nositelinkssearchbox"/>
@@ -21,18 +21,16 @@
 		<meta property="og:image:height" content="1024">
 		
 		<link rel="icon" type="image/png" href="Icons & Images/JeremyAkatsaFavicon(192x192).png" sizes="192x192"> -->
+
 		
 	<title>Bitruism</title>
 </head>
 	<body>
-		<div id="wrapper" class="text-dark">
+			<div id="wrapper" class="text-dark">
             <h2 id="logo">bitruism</h2>
             <br>
 			<form action="/charities">
-				<input id="submit" type="submit" 
-                  onclick="document.getElementById('yourAudioTag').play()" 
-                  onmouseover="document.getElementById('yourAudioTag').play()"
-				 value="Donate Bitcoin"/>
+				<input id="submit" type="submit" value="Donate Bitcoin"/>
 			</form>
 			<br>
 			<form action="/submit">

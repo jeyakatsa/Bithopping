@@ -34,12 +34,12 @@
        	      margin: 0 auto;
        	      margin-bottom: 5px;
        	      font-size: 80px;
-       	      color: black;
+       	      color: #dba100;
        	   }	
            #submit{
 			  display: flex;
 			  justify-content: center;
-			  color: #595959;
+			  color: white;
 			  font-size: 25px;
 			  margin: 0 auto;
                width: 400px;
@@ -47,19 +47,20 @@
                padding: 25px;
                border-radius: 30px;
                border: none;
-               background-color: white;
-               box-shadow: 0px 5px 20px 5px silver;
+               background-color: #dba100;
+               box-shadow: 0px 7px 20px 0px #dba100;
                margin-bottom: 10px;
            }
            #submit:hover{
-			  transition-duration: .5s;
-			  box-shadow: none;
-			  background-color: #ededed;
+			    opacity: 0.4;
+			    transition-duration: .5s;
+			    box-shadow: none;
            }
            #about {
-           		text-align: center;  
+           		text-align: center; 
            		margin: 0 auto;
-           		color: #595959;
+           		margin-top: 5px; 
+           		color: #dba100;
            		font-size: 18px;
 			  	display: flex;
 			    justify-content: center;  
