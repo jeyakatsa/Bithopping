@@ -47,7 +47,7 @@
 				</form>
 				<br>
 			    <form action="https://hrf.org/donate-bitcoin/">
-					<input id="humanrights" type="submit" value="Human Rights Foundation"/>
+					<input id="humanrights" type="submit" value="Human Rights"/>
 				</form>
 				<br>
 	            <form action="https://www.conservation.org/act/donate-bitcoin">

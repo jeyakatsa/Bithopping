@@ -1,60 +1,125 @@
+@font-face {
+  font-family: "Cooper Black";
+  src: url("/fonts/cooper-black.otf");
+}
 * {
 	vertical-align: baseline;
 	font-weight: inherit;
     font-style: inherit;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cooper Black, serif;
 	font-size: 100%;
 	outline: 0;
     margin: 0 auto;
 	}
+	
+@media screen and (max-width: 700px) {
+  body {
+    -webkit-text-size-adjust: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    -webkit-text-size-adjust: none;
+  }
+}
+
 #wrapper {
-         padding: 100px;
-         width: 1000px;
-         height: auto;
+	  margin: 0 auto;
+	  margin-top: 50px;
        }
-       	   #welcome {
-       	      display: inline-block;
-       	   }	
-           #register{
-               display: inline-block;
-               width: 400px;
+       	   h4 {
+       	      text-align: center;
+       	   }
+       	   #logo {
+       	      margin: 0 auto;
+       	      font-size: 40px;
+       	      color: gray;
+       	      text-decoration: none;
+       	   }
+       	   #logo:hover{
+           		color: #dba100;
+			    transition-duration: .5s;
            }
-           #errors {
-	           color: silver;
-	           font-size: 13px;
-	           font-style: italic;
+           #container {
+           	  width: 500px;
+           	  margin: 0 auto;      
            }
-           #login{
-               display: inline-block;
-               margin-left: 130px;
-               padding-top: 50px;
-               vertical-align: top;
+       	   p{
+       	      text-align:center;
+       	      margin: 0 auto;
+       	      font-size: 20px;
+       	      font-family: Arial;
+       	      letter-spacing: 10px;
+       	      color: gray;
+       	   }
+       	   #label{
+       	   		color: gray;
+       	   		font-family: Arial;
+       	   		font-weight: 600;
+       	   		font-size: 17px;
+       	   		margin-left: 20px;
+       	   }
+       	   #input {
+       	   		padding: 30px;
+       	   		color: gray;
+       	   		font-family: Arial;
+       	   		border-radius: 15px;
+       	   		font-size: 18px;
+       	   		height: 65px;
+       	   }
+		  .form-control:focus{
+		       border-width: 7px;
+               -webkit-box-shadow: none !important;
+               -moz-box-shadow: none !important;
+               box-shadow: none !important;
            }
-           #idea-form {
-           	   margin-top: 40px;
-           }
-           #content {
-           	   display: inline-block;
-           	   vertical-align: top;
-           	   font-size: 20px;
-           	   margin-right: 20px;
-           	   margin-left: 50px;
-           }
-           #enter-content {
-           		display: inline-block;
-           		vertical-align: top;
-           		width: 300px;
-           }
-           #submit {
-           		margin-left: 150px;
-           		margin-top: 20px;
+       	   #errors{
+       	   		color: #dba100;
+       	   }
+           hr{
+           		margin-top: 30px;
+           		width: 500px;
+           		background-color: #dba100;
+            	height: 3px;
            }
            
-           #logout {
-           		display: inline-block;
-           		margin-left: 320px;
-           		vertical-align:top;
-           		font-size: 13px;
-           		margin-top: 10px;
-           		outline: none;
-           		}
+           #submitcharity{
+               color: gray; 
+               font-size: 17px;
+               text-decoration: none;
+           }
+           #submitcharity:hover{
+			    color: #dba100; 
+			    transition-duration: .5s;
+           }
+           #donatebitcoin{
+               color: #dba100;
+               font-size: 25px;
+               margin-top: 40px;
+               	text-decoration: none;
+           }
+           #donatebitcoin:hover{
+			    opacity: 0.5;
+			    transition-duration: .5s;
+           }
+           #submit{
+			  display: flex;
+			  justify-content: center;
+			  color: white;
+			  font-size: 25px;
+			  margin: 0 auto;
+               width: 250px;
+               height: 65px;
+               padding: 10px;
+               border-radius: 15px;
+               border: none;
+               background-color: #dba100;
+               box-shadow: 0px 7px 20px 0px #dba100;
+               margin-bottom: 10px;
+           }
+           #submit:hover{
+			    opacity: 0.4;
+			    transition-duration: .5s;
+			    box-shadow: none;
+           }
