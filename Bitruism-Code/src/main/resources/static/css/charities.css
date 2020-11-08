@@ -26,14 +26,14 @@
 
 #wrapper {
 	  margin: 0 auto;
-	  margin-top: 30px;
+	  margin-top: 50px;
        }
        	   h4 {
        	      text-align: center;
        	   }
        	   #logo {
        	      margin: 0 auto;
-       	      font-size: 60px;
+       	      font-size: 40px;
        	      color: gray;
        	      text-decoration: none;
        	   }
@@ -44,9 +44,9 @@
        	   p{
        	      text-align: center;
        	      margin: 0 auto;
-       	      font-size: 20px;
+       	      font-size: 15px;
        	      font-family: Arial;
-       	      letter-spacing: 12px;
+       	      letter-spacing: 10px;
        	      color: gray;
        	      margin-left: 5px;
        	   }
@@ -55,7 +55,7 @@
            	  margin: 0 auto;    
            	  padding-left: 100px;   
            	  margin-bottom: 30px;  
-           	  margin-top: 15px;  
+           	  margin-top: 5px;  
            }
            input{
 			  display: flex;
@@ -127,7 +127,7 @@
            }
            hr{
            		margin-top: 30px;
-           		width: 1000px;
+           		width: 500px;
            		background-color: #dba100;
             	height: 3px;
            }
@@ -147,7 +147,7 @@
            }
            #about {
            		text-align: center; 
-           		margin-top: 5px; 
+           		margin-top: 0px; 
            		color: #dba100;
            		font-size: 18px;
 			  	display: flex;
