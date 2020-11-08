@@ -27,7 +27,7 @@
 		<div id="wrapper" class="text-dark">
             <h4><a id="logo" href="/">bitruism</a></h4>
             <br>
-            <p>DONATE BITCOIN TO CHARITIES</p>
+            <p id="header">DONATE BITCOIN TO CHARITIES</p>
             <br>
             <div id="container">
 	            <form action="https://files.savethechildren.org/cryptocurrency-donation/">
@@ -64,9 +64,9 @@
             </div>
             <br>
 			<hr>
-			<a id="submitcharity" href="/submit">Submit A Charity</a>
+			<p id="submitc"><a id="submitcharity" href="/submit">Submit A Charity</a></p>
+			<p id="abt"><a id="about" href="/about">About</a></p>			
             <br>
-            <a id="about" href="/about">About</a>
 		</div>
 	</body>
 </html>

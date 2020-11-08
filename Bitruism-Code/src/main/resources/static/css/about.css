@@ -46,12 +46,11 @@
            	  margin: 0 auto;      
            }
        	   p{
-       	      text-align: center;
+       	      text-align:center;
        	      margin: 0 auto;
        	      font-size: 20px;
        	      font-family: Arial;
        	      color: gray;
-       	      margin-left: 5px;
        	   }
            hr{
            		margin-top: 30px;
@@ -73,10 +72,7 @@
                color: #dba100;
                font-size: 25px;
                margin-top: 40px;
-               text-align: center; 
-               	display: flex;
                	text-decoration: none;
-			    justify-content: center;  
            }
            #donatebitcoin:hover{
 			    opacity: 0.5;

@@ -28,14 +28,15 @@
             <h4><a id="logo" href="/">bitruism</a></h4>
             <br>
             <div id="container">
-	            <p>Bitcoin-Altruism or Bitruism in short, is a place for anyone to browse a list of curated 
+	            <p>Bitcoin-Altruism or Bitruism for short, is a place for anyone to browse a list of curated 
 	            and vetted charities to donate Bitcoin to!</p>
 	            <p>If there are no charities that interest you on our list, <a id="submitcharity" href="/submit">Submit A Charity</a>
 	            for evaluation and we'll inform you of its status.</p>
             </div>
             <br>
             <hr>
-            <a id="donatebitcoin" href="/charities">Donate Bitcoin To Charities</a>
+            <p><a id="donatebitcoin" href="/charities">Donate Bitcoin To Charities</a>
+            </p>
 		</div>
 	</body>
 </html>

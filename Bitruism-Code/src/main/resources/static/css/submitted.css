@@ -25,49 +25,79 @@
 }
 
 #wrapper {
-	  width: 800px;
 	  margin: 0 auto;
-	  margin-top: 150px;
+	  margin-top: 50px;
        }
+       	   h4 {
+       	      text-align: center;
+       	   }
        	   #logo {
-       	     text-align: center;
        	      margin: 0 auto;
-       	      margin-bottom: 5px;
-       	      font-size: 80px;
-       	      color: #dba100;
-       	   }	
-           #submit{
-			  display: flex;
-			  justify-content: center;
-			  color: white;
-			  font-size: 25px;
-			  margin: 0 auto;
-               width: 400px;
-               height: 90px;
-               padding: 25px;
-               border-radius: 30px;
-               border: none;
-               background-color: #dba100;
-               box-shadow: 0px 7px 20px 0px #dba100;
-               margin-bottom: 10px;
-           }
-           #submit:hover{
-			    opacity: 0.4;
-			    transition-duration: .5s;
-			    box-shadow: none;
-           }
-           #about {
-           		text-align: center; 
-           		margin: 0 auto;
-           		margin-top: 5px; 
+       	      font-size: 40px;
+       	      color: gray;
+       	      text-decoration: none;
+       	   }
+       	   #logo:hover{
            		color: #dba100;
-           		font-size: 18px;
-			  	display: flex;
-			    justify-content: center;  
-			    text-decoration: none;  
-			  
+			    transition-duration: .5s;
            }
-           #about:hover{
-           		opacity: 0.5;
+           #container {
+           	  width: 500px;
+           	  margin: 0 auto;      
+           }
+           h3 {
+           		color: gray;
+           		text-align: center;
+           	  
+           }
+       	   p{
+       	   	  text-align:center;
+       	   }
+       	   #submitted{
+       	      text-align: left;
+       	      margin: 0 auto;
+       	      font-size: 18px;
+       	      font-family: Arial;
+       	      color: gray;
+       	   }
+       	   li{
+       	      text-align: left;
+       	      margin: 0 auto;
+       	      font-size: 18px;
+       	      font-family: Arial;
+       	      color: gray;
+       	   }
+       	   #ifaccepted{
+       	   text-align: center;
+   	       margin: 0 auto;
+   	      font-size: 18px;
+   	      font-family: Arial;
+   	      color: gray;
+       	   }
+           
+           hr{
+           		margin-top: 30px;
+           		width: 500px;
+           		background-color: #dba100;
+            	height: 3px
+           }
+           #submitcharity{
+               color: #dba100;
+               font-size: 20px;
+               text-align: center; 
+               	text-decoration: none;
+           }
+           #submitcharity:hover{
+			    opacity: 0.5; 
+			    transition-duration: .5s;
+           }
+           #donatebitcoin{
+               color: #dba100;
+               font-size: 25px;
+               	text-decoration: none;
+               	padding-top: 10px;
+           }
+           #donatebitcoin:hover{
+			    opacity: 0.5;
 			    transition-duration: .5s;
            }
