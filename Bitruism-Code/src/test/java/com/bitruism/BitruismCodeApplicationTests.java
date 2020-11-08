@@ -1,10 +1,10 @@
-package com.bitlace;
+package com.bitruism;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BitlaceCodeApplicationTests {
+class BitruismCodeApplicationTests {
 
 	@Test
 	void contextLoads() {

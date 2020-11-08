@@ -43,36 +43,21 @@
            }
            #container {
            	  width: 500px;
-           	  margin: 0 auto;      
+           	  margin: 0 auto;   
+           	             margin-top: 100px;   
            }
            h3 {
+
            		color: gray;
            		text-align: center;
            	  
            }
        	   p{
-       	   	  text-align:center;
-       	   }
-       	   #submitted{
-       	      text-align: left;
+       	      text-align:center;
        	      margin: 0 auto;
-       	      font-size: 18px;
+       	      font-size: 20px;
        	      font-family: Arial;
        	      color: gray;
-       	   }
-       	   li{
-       	      text-align: left;
-       	      margin: 0 auto;
-       	      font-size: 18px;
-       	      font-family: Arial;
-       	      color: gray;
-       	   }
-       	   #ifaccepted{
-       	   text-align: center;
-   	       margin: 0 auto;
-   	      font-size: 18px;
-   	      font-family: Arial;
-   	      color: gray;
        	   }
            
            hr{

@@ -24,21 +24,12 @@
 </head>
 	<body>
 		<div id="wrapper" class="text-dark">
-            <h4><a id="logo" href="/">bitruism</a></h4>
-            <br>
             <div id="container">
 	            <h3>Thanks for your submission!</h3>
 	            <br>
-				<p id="submitted">Your submission will be carefully vetted/curated in order to maintain quality.
-				We will vet your submission based on these criteria...
+				<p>Your submission will be carefully vetted/curated in order to maintain quality.
 				</p>
-				<br>
-				<ul>
-					<li>Duplications: we ensure the charity you submitted isn't already hosted on Bitruism.</li>
-					<li>Reputation: we research the reputation of the charity you sumitted.</li>
-					<li>Bitcoin Acceptance: we confirm that your submitted charity does accept Bitcoin.</li>
-				</ul>
-				<p id="ifaccepted">If your submission is accepted, you'll receive an e-mail confirmation from us.	
+				<p>If your submission is accepted, you'll receive an e-mail confirmation from us.	
 				</p>
             </div>
             <br>
