@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="/css/index.css">	
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
 			rel="stylesheet" >
+		<script src="/javascript/index.js"></script>			
 		<meta charset="ISO-8859-1">
 		<meta name="description" content="Bitruism"/>
 		<meta name="google" content="nositelinkssearchbox"/>
@@ -28,7 +29,10 @@
             <h2 id="logo">bitruism</h2>
             <br>
 			<form action="/charities">
-				<input id="submit" type="submit" value="Donate Bitcoin"/>
+				<input id="submit" type="submit" 
+                  onclick="document.getElementById('yourAudioTag').play()" 
+                  onmouseover="document.getElementById('yourAudioTag').play()"
+				 value="Donate Bitcoin"/>
 			</form>
 			<br>
 			<form action="/submit">
