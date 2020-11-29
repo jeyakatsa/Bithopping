@@ -35,10 +35,12 @@
        	      margin-bottom: 5px;
        	      font-size: 80px;
        	      color: #dba100;
+       	      font-style: bold;
        	   }	
            #submit{
 			  display: flex;
 			  justify-content: center;
+			  font-style: bold;
 			  color: white;
 			  font-size: 25px;
 			  margin: 0 auto;
