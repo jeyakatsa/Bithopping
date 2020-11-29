@@ -11,22 +11,12 @@
 	outline: 0;
     margin: 0 auto;
 	}
-	
-@media screen and (max-width: 700px) {
-  body {
-    -webkit-text-size-adjust: none;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  body {
-    -webkit-text-size-adjust: none;
-  }
-}
 
 #wrapper {
 	  margin: 0 auto;
 	  margin-top: 50px;
+	  margin-bottom: 50px;
+	  width: 500px;
        }
        	   h4 {
        	      text-align: center;
@@ -36,6 +26,8 @@
        	      font-size: 40px;
        	      color: gray;
        	      text-decoration: none;
+       	      font-style: bold;
+       	      font-weight: 800;
        	   }
        	   #logo:hover{
            		color: #dba100;
@@ -44,7 +36,7 @@
            #container {
            	  width: 500px;
            	  margin: 0 auto;   
-           	             margin-top: 100px;   
+           	  margin-top: 100px;  
            }
            h3 {
 
@@ -70,7 +62,9 @@
                color: #dba100;
                font-size: 20px;
                text-align: center; 
-               	text-decoration: none;
+               text-decoration: none;
+               font-style: bold;
+       	      font-weight: 800;
            }
            #submitcharity:hover{
 			    opacity: 0.5; 
@@ -81,8 +75,35 @@
                font-size: 25px;
                	text-decoration: none;
                	padding-top: 10px;
+               	font-style: bold;
+       	      font-weight: 800;
            }
            #donatebitcoin:hover{
 			    opacity: 0.5;
 			    transition-duration: .5s;
            }
+  @media screen and (max-width: 700px) {
+	body {
+	  -webkit-text-size-adjust: none;
+	}
+	#wrapper {
+		width: 400px;
+	}
+	      #container {
+           	  width: 320px;
+           	  padding-left: 0px;     	  
+           }
+       	   p{
+       	      font-size: 15px;
+       	   }  
+           hr{
+           		width: 300px;
+           }       	            
+           
+          #submitcharity{
+               font-size: 17px;
+           }  
+           #donatebitcoin{
+           		font-size: 17px;
+           } 
+  }                  

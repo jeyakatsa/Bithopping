@@ -12,21 +12,11 @@
     margin: 0 auto;
 	}
 	
-@media screen and (max-width: 700px) {
-  body {
-    -webkit-text-size-adjust: none;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  body {
-    -webkit-text-size-adjust: none;
-  }
-}
 
 #wrapper {
 	  margin: 0 auto;
 	  margin-top: 50px;
+	  width: 600px;
 	  margin-bottom: 30px;
        }
        	   h4 {
@@ -37,6 +27,8 @@
        	      font-size: 40px;
        	      color: gray;
        	      text-decoration: none;
+       	      font-style: bold;
+       	      font-weight: 800;       	      
        	   }
        	   #logo:hover{
            		color: #dba100;
@@ -45,18 +37,21 @@
        	   #header{
        	      text-align: center;
        	      margin: 0 auto;
-       	      font-size: 20px;
+       	      font-size: 15px;
        	      font-family: Arial;
        	      letter-spacing: 10px;
        	      color: gray;
        	      margin-left: 5px;
+       	      font-weight: 600;
        	   }
        	   #container {
-           	  width: 800px;
-           	  margin: 0 auto;    
-           	  padding-left: 125px;   
+           	  width: 600px;
+           	  margin: 0 auto;      
            	  margin-bottom: 10px;  
            	  margin-top: 20px;  
+       	      font-style: bold;
+       	      font-weight: 800;  
+       	      padding-left: 25px;       	  
            }
            input{
 			  display: flex;
@@ -140,6 +135,8 @@
            #submitcharity{
                color: #dba100;
                font-size: 25px;
+               font-style: bold;
+       	       font-weight: 800;
                	text-decoration: none; 
            }
            #submitcharity:hover{
@@ -152,10 +149,47 @@
            #about {
            		color: #dba100;
            		font-size: 18px;
-			    text-decoration: none;  
+			    text-decoration: none;
+			    font-style: bold;
+       	        font-weight: 800; 
 			  
            }
            #about:hover{
 			    opacity: 0.5;
 			    transition-duration: .5s;
            }
+  @media screen and (max-width: 700px) {
+	body {
+	  -webkit-text-size-adjust: none;
+	}
+	#wrapper {
+		width: 400px;
+	}
+	      #container {
+           	  width: 350px;
+           	  padding-left: 0px;     	  
+           }
+       	   #header{
+       	      font-size: 12px;
+       	      letter-spacing: 5px;
+       	   }           
+          #savethechildren,
+          #unitedway,
+          #waterproject,
+          #directrelief,
+          #humanrights,
+          #conservation,
+          #crohn,
+          #forgottenanimals{
+			    width: 350px;
+			    font-size: 20px;
+           }
+           hr{
+           		width: 300px;
+           }   
+           
+          #submitcharity{
+               font-size: 20px;
+           }
+                   
+  }           

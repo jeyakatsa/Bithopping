@@ -12,21 +12,12 @@
     margin: 0 auto;
 	}
 	
-@media screen and (max-width: 700px) {
-  body {
-    -webkit-text-size-adjust: none;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  body {
-    -webkit-text-size-adjust: none;
-  }
-}
 
 #wrapper {
 	  margin: 0 auto;
 	  margin-top: 50px;
+	  margin-bottom: 50px;
+	  width: 600px;
        }
        	   h4 {
        	      text-align: center;
@@ -36,22 +27,25 @@
        	      font-size: 40px;
        	      color: gray;
        	      text-decoration: none;
+       	      font-style: bold;
+       	      font-weight: 800;
        	   }
        	   #logo:hover{
            		color: #dba100;
 			    transition-duration: .5s;
            }
            #container {
-           	  width: 500px;
+           	  width: 600px;
            	  margin: 0 auto;      
            }
        	   p{
        	      text-align:center;
        	      margin: 0 auto;
-       	      font-size: 20px;
+       	      font-size: 15px;
        	      font-family: Arial;
        	      letter-spacing: 10px;
        	      color: gray;
+       	      font-weight: 600;
        	   }
        	   #label{
        	   		color: gray;
@@ -76,6 +70,8 @@
            }
        	   #errors{
        	   		color: #dba100;
+       	   		font-style: bold;
+       	        font-weight: 800;
        	   }
            hr{
            		margin-top: 30px;
@@ -88,6 +84,8 @@
                color: gray; 
                font-size: 17px;
                text-decoration: none;
+               font-style: bold;
+       	       font-weight: 800;
            }
            #submitcharity:hover{
 			    color: #dba100; 
@@ -97,7 +95,9 @@
                color: #dba100;
                font-size: 25px;
                margin-top: 40px;
-               	text-decoration: none;
+               text-decoration: none;
+               font-style: bold;
+       	       font-weight: 800;
            }
            #donatebitcoin:hover{
 			    opacity: 0.5;
@@ -108,6 +108,8 @@
 			  justify-content: center;
 			  color: white;
 			  font-size: 25px;
+			  font-style: bold;
+       	      font-weight: 800;
 			  margin: 0 auto;
                width: 250px;
                height: 65px;
@@ -123,3 +125,24 @@
 			    transition-duration: .5s;
 			    box-shadow: none;
            }
+           
+  @media screen and (max-width: 700px) {
+	body {
+	  -webkit-text-size-adjust: none;
+	}
+	#wrapper {
+		width: 400px;
+	}
+	      #container {
+           	  width: 350px;
+           	  padding-left: 0px;     	  
+           }
+       	   p{
+       	      font-size: 12px;
+       	      letter-spacing: 5px;
+       	   }           
+           
+          #submit{
+               font-size: 20px;
+           }   
+  }        
