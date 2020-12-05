@@ -59,7 +59,7 @@
 					<input id="waterproject" type="submit" value="The Water Project"/>
 				</form>
 				<br>
-	            <form action="https://www.directrelief.org/get-involved/bitcoin/">
+	            <form action="https://www.directrelief.org/get-involved/donate-crypto/">
 					<input id="directrelief" type="submit" value="Direct Relief"/>
 				</form>
 				<br>
